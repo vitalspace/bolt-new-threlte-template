@@ -4,7 +4,7 @@
 </script>
 
 
-<div class="h-screen">
+<div class="h-screen border-2">
   
 <Canvas>
   <Scene />
