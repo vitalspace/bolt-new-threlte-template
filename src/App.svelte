@@ -7,9 +7,7 @@
 
 <Router>
 <!-- Menu -->
-
   <div>
     <Route path="/" component={Home} />
   </div>
-
 </Router>
