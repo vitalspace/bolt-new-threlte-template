@@ -1,3 +1,6 @@
-<h1>
-  Hello Home
-</h1>
+<script>
+  import Index from "../lib/pages/home/Index.svelte"
+  
+</script>
+
+<Index/>
