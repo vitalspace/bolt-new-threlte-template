@@ -13,9 +13,10 @@
 
 <T.PerspectiveCamera
   makeDefault
-  fov={50}
+  position={[10, 5, 10]}
+  lookAt.y={0.5}
 >
-  <OrbitControls enableDamping />
+  <OrbitControls />
 </T.PerspectiveCamera>
 
 
