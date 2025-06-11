@@ -14,9 +14,6 @@
 <T.PerspectiveCamera
   position={[0, 0, 0]}
   fov={60}
-  near={1}
-  far={20000}
-  makeDefault
 >
   <OrbitControls
     maxPolarAngle={85 * DEG2RAD}
