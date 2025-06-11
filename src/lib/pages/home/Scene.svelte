@@ -12,7 +12,7 @@
 
 
 <T.PerspectiveCamera
-  position={[0, 7, 18]}
+  position={[0, 0, 0]}
   fov={60}
   near={1}
   far={20000}
