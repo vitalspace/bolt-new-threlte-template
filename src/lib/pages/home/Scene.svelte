@@ -10,15 +10,21 @@
 
 <Sky elevation={-2} />
 
-<!-- <Stars/> -->
+<Stars/>
 
 <T.PerspectiveCamera
+  position={[0, 7, 18]}
+  fov={60}
+  near={1}
+  far={20000}
   makeDefault
-  position={[10, 10, 10]}
-  oncreate={(ref) => {
-    ref.lookAt(0, 1, 0)
-  }}
-/>
+>
+  <OrbitControls
+    maxPolarAngle={85 * DEG2RAD}
+    enableDamping
+    target={[0, 2.5, 0]}
+  />
+</T.PerspectiveCamera>
 
 <T.DirectionalLight
   position={[0, 10, 10]}
