@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@dimforge/rapier3d-compat": "^0.17.3",
+    "@lucide/svelte": "^0.514.0",
     "@tailwindcss/vite": "^4.1.8",
     "@threlte/core": "^8.0.4",
     "@threlte/extras": "^9.2.1",
