@@ -1,7 +1,7 @@
 <script lang="ts">
   import { T, useTask } from '@threlte/core'
   import City from "./components/world/City.svelte"
-  import { Sky, Stars  } from '@threlte/extras'
+  import { Sky, Stars,OrbitControls   } from '@threlte/extras'
   
 
   useTask((delta) => {
