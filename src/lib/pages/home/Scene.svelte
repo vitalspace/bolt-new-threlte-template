@@ -16,9 +16,8 @@
   fov={60}
 >
   <OrbitControls
-    maxPolarAngle={85 * DEG2RAD}
     enableDamping
-    target={[0, 2.5, 0]}
+    target={[0, 0, 0]}
   />
 </T.PerspectiveCamera>
 
