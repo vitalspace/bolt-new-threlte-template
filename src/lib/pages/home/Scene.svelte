@@ -2,6 +2,9 @@
   import { T, useTask } from '@threlte/core'
   import { interactivity } from '@threlte/extras'
   import { Spring } from 'svelte/motion'
+  import City from "./components/world/City.svelte"
+  
+  
 
   interactivity()
 
