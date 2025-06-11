@@ -8,7 +8,7 @@
   })
 </script>
 
- <Sky elevation={0.5} />
+ <Sky elevation={-2} />
 
 <T.PerspectiveCamera
   makeDefault
