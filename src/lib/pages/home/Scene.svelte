@@ -12,15 +12,11 @@
 
 
 <T.PerspectiveCamera
-  position={[0, 0, 0]}
-  fov={60}
+  makeDefault
+  fov={50}
 >
-  <OrbitControls
-    enableDamping
-    target={[0, 0, 0]}
-  />
+  <OrbitControls enableDamping />
 </T.PerspectiveCamera>
-
 <T.DirectionalLight
   position={[0, 10, 10]}
   castShadow
