@@ -1,14 +1,16 @@
 <script lang="ts">
   import { T, useTask } from '@threlte/core'
   import City from "./components/world/City.svelte"
-  import { Sky } from '@threlte/extras'
+  import { Sky, Stars  } from '@threlte/extras'
   
 
   useTask((delta) => {
   })
 </script>
 
- <Sky elevation={-2} />
+ <!-- <Sky elevation={-2} /> -->
+
+<Stars/>
 
 <T.PerspectiveCamera
   makeDefault
