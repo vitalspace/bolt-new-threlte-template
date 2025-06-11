@@ -52,3 +52,4 @@
   <T.CircleGeometry args={[4, 40]} />
   <T.MeshStandardMaterial color="white" />
 </T.Mesh>
+<City/>
