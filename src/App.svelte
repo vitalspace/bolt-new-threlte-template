@@ -1,12 +1,4 @@
 <script>
-  import { Canvas } from '@threlte/core'
-  import Scene from './lib/Scene.svelte'
+  import { Router, Link, Route } from "svelte5-router"
+    
 </script>
-
-
-<div class="h-screen">
-  
-<Canvas>
-  <Scene />
-</Canvas>
-</div>
