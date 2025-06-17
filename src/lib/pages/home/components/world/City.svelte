@@ -7,7 +7,7 @@ Command: npx @threlte/gltf@3.0.1 .\city.glb -T --draco /draco/
   import { T } from '@threlte/core'
   import { useGltf, useDraco } from '@threlte/extras'
 
-  let { fallback, error, children, ref = $bindable(), ...props } = $props()
+  let { fallback = () => {}, error = () => {}, children = () => {}, ref = $bindable(), ...props } = $props()
 
   const gltf = useGltf('/city-transformed.glb', { dracoLoader: useDraco() })
 </script>

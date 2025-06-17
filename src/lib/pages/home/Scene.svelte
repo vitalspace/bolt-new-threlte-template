@@ -1,28 +1,25 @@
 <script lang="ts">
-  import { T, useTask } from '@threlte/core'
-  import City from "./components/world/City.svelte"
-  import { Sky, Stars,OrbitControls   } from '@threlte/extras'
-  
+  import { T, useTask } from "@threlte/core";
+  import City from "./components/world/City.svelte";
+  import { Sky, Stars, OrbitControls } from "@threlte/extras";
 
-  useTask((delta) => {
-  })
+  useTask((delta) => {});
 </script>
 
-<Sky elevation={-2} />
+<Sky
+  elevation={-5}
+  turbidity={20}
+  rayleigh={0.57}
+  azimuth={180}
+  mieCoefficient={0.038}
+  mieDirectionalG={0}
+  exposure={0.26}
+/>
 
-
-<T.PerspectiveCamera
-  makeDefault
-  position={[10, 5, 10]}
-  lookAt.y={0.5}
->
+<T.PerspectiveCamera makeDefault position={[10, 5, 10]} lookAt.y={0.5}>
   <OrbitControls />
 </T.PerspectiveCamera>
 
+<T.DirectionalLight position={[0, 10, 10]} castShadow />
 
-<T.DirectionalLight
-  position={[0, 10, 10]}
-  castShadow
-/>
-
-<City/>
+<City />
