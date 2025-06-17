@@ -8,7 +8,7 @@
   })
 </script>
 
-<Sky elevation={-5} />
+<Sky elevation={-5} Turbidity={20} />
 
 
 <T.PerspectiveCamera
