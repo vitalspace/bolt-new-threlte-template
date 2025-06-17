@@ -6,19 +6,7 @@
   useTask((delta) => {});
 </script>
 
-<<<<<<< HEAD
-<Sky
-  elevation={-5}
-  turbidity={20}
-  rayleigh={0.57}
-  azimuth={180}
-  mieCoefficient={0.038}
-  mieDirectionalG={0}
-  exposure={0.26}
-/>
-=======
 <Sky elevation={-5} turbidity={20} />
->>>>>>> 929aa6818392ad65229343375bf994de655097d8
 
 <T.PerspectiveCamera makeDefault position={[10, 5, 10]} lookAt.y={0.5}>
   <OrbitControls />
